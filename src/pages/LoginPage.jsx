@@ -94,7 +94,7 @@ export default function LoginPage() {
         <div className="auth-divider">or</div>
 
         <a
-          href="http://localhost:8082/oauth2/authorization/google"
+          href="https://luxstay-gateway.onrender.com/auth/oauth2/authorization/google"
           className="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center gap-2 mb-3"
         >
           <img
