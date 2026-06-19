@@ -13,6 +13,8 @@ const processQueue = (error, token = null) => {
   failedQueue = []
 }
 
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL || ''
+
 // Response interceptor — catches 401 and auto-refreshes token
 axios.interceptors.response.use(
   response => response,
